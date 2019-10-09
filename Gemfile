@@ -5,5 +5,7 @@ gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-tagging'
 
-# to resize the images
-gem 'jekyll-compress-images'
+# Image Compressor Gem
+# https://github.com/valerijaspasojevic/jekyll-compress-images
+gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'
+gem 'image_optim', :git => 'git://github.com/toy/image_optim.git'

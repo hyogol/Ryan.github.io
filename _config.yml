@@ -47,3 +47,9 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+
+# Image Compression
+imageoptim:
+  pngout: false
+  svgo: true
+  verbose: false
